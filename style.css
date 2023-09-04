@@ -34,3 +34,19 @@
     color: #55acee;
     /* Cor do texto dos links quando hover */
 }
+
+/* Estilizando a página */
+
+#perfil {
+    text-align: center;
+    padding-top: 5em;
+    color: white;
+}
+
+h1 {
+    font-family: 'Marcellus SC', serif;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}

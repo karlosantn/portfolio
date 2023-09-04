@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    background-color: #333;
+}
+
+/* Estilizando a barra de navegação */
+.social-nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    /* Cor de fundo da barra */
+    padding: 10px;
+}
+
+/* Estilizando os links e os ícones */
+.social-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    /* Cor do texto dos links */
+    transition: color 0.3s ease-in-out;
+}
+
+.social-link img {
+    width: 30px;
+    /* Largura dos ícones */
+    height: 30px;
+    /* Altura dos ícones */
+}
+
+/* Efeito de hover para os links */
+.social-link:hover {
+    color: #55acee;
+    /* Cor do texto dos links quando hover */
+}

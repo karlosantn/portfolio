@@ -5,7 +5,7 @@
 
 /* Estilizando a barra de navegação */
 .social-nav {
-    margin-top: 25px;
+    margin-top: 15px;
     display: flex;
     justify-content: center;
     background-color: #333;
@@ -36,6 +36,10 @@
 }
 
 /* Estilizando a página */
+#principal{
+    display: grid;
+    grid-auto-flow: column;
+}
 
 #perfil {
     text-align: center;
@@ -49,4 +53,16 @@ h1 {
 
 p {
     font-family: 'Montserrat', sans-serif;
+}
+
+#projetos {
+    text-align: center;
+    padding-top: 5em;
+    color: white;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: white;
 }

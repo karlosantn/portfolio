@@ -1,72 +1,20 @@
 * {
-    margin: 0px;
+    background-color: #333;
 }
 
-.social-nav {
-    padding-top: 15px;
-    display: flex;
-    justify-content: center;
-    background: #27272c;    
-    padding: 10px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.social-link {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-    transition: color 0.3s ease-in-out;
-}
-
-.social-link img {
-    width: 30px;
-    height: 30px;
-}
-
-.social-link:hover {
-    color: #55acee;
-}
-
-#principal{
-    display: grid;
-    grid-auto-flow: column;
-    color: white;
-
-}
-
-#perfil {
-    text-align: center;
-    padding-top: 5em;
-    background: #27272c;
-}
-
-h1 {
-    font-family: 'Marcellus SC', serif;
-}
-
-p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-a {
-    font-family: 'Montserrat', sans-serif;
-    text-decoration: none;
-    font-weight: 600;
-    color: white;
-}
-
-#calact {
-    text-align: center;
-    padding-top: 15em;
-    background: #27272c;
-}
-
-#projetos {
+body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    min-height: 90vh;
+    min-height: 100vh;
     background: #27272c;
 }
 
@@ -79,18 +27,16 @@ button {
     border: none;
     letter-spacing: 0.1rem;
     font-size: 1rem;
-    width: 200px;
-    height: 50px;
+    padding: 1rem 3rem;
     transition: 0.2s;
 }
 
 button:hover {
     letter-spacing: 0.2rem;
-    width: 220px;
-    height: 52px;
+    padding: 1.1rem 3.1rem;
     background: var(--clr);
     color: var(--clr);
-    box-shadow: 0 0 35px var(--clr);
+    /* box-shadow: 0 0 35px var(--clr); */
     animation: box 3s infinite;
 }
 
@@ -173,42 +119,5 @@ button:hover i::after {
 
     100% {
         box-shadow: #27272c;
-    }
-}
-
-@media screen and (max-width: 768px) {
-
-    * {
-        margin: 0;
-        background-color: #333;
-    }
-
-    .social-nav {
-        margin-top: 0;
-        padding: 5px;
-        margin-top: 15px;
-    }
-
-    .social-link {
-        margin: 0 5px;
-    }
-
-    #principal {
-        display: block;
-        font-size: 12px;
-        padding-bottom: 25px;
-    }
-
-    #perfil,
-    #projetos,
-    #calact {
-        text-align: center;
-        padding-top: 2em;
-
-    }
-
-    button {
-        width: 200px;
-        height: 35px;
     }
 }

@@ -93,3 +93,47 @@ button:hover {
     box-shadow: 0px 15px 20px rgba(100, 97, 97, 0.573);
     transition-duration: 0.5s;
 }
+
+/* Estilos para dispositivos móveis (largura máxima de 768px) */
+@media screen and (max-width: 768px) {
+
+    /* Zerar margem e background para todos os elementos */
+    * {
+        margin: 0;
+        background-color: #333;
+        /* Remova o fundo escuro */
+    }
+
+    /* Redefinir estilos da barra de navegação */
+    .social-nav {
+        margin-top: 0;
+        padding: 5px;
+        /* Espaçamento menor na barra de navegação */
+    }
+
+    .social-link {
+        margin: 0 5px;
+        /* Espaçamento menor entre os links */
+    }
+
+    /* Redefinir estilos da página principal */
+    #principal {
+        display: block;
+        /* Mostrar elementos um abaixo do outro */
+    }
+
+    #perfil,
+    #projetos,
+    #calact {
+        text-align: center;
+        padding-top: 2em;
+        /* Espaçamento menor na parte superior */
+    }
+
+    button {
+        width: 200px;
+        /* Reduzir a largura do botão */
+        height: 35px;
+        /* Reduzir a altura do botão */
+    }
+}

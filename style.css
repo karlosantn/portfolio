@@ -157,7 +157,8 @@ footer {
     color: white;
     text-align: center;
     background: #27272c;
-}
+    font-family: 'Montserrat', sans-serif;
+ }
 
 @keyframes move {
     0% {
@@ -186,7 +187,7 @@ footer {
         box-shadow: #27272c;
     }
 }
-
+ /* RESPONSIVIDADE */ 
 @media screen and (max-width: 768px) {
 
     * {

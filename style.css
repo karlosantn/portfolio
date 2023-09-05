@@ -191,23 +191,16 @@ footer {
 
     * {
         margin: 0;
-        background: #27272c;
     }
 
     .social-nav {
-        margin-top: 0;
         padding: 5px;
         padding-top: 15px;
-    }
-
-    .social-link {
-        margin: 0 5px;
     }
 
     #principal {
         display: block;
         font-size: 12px;
-        padding-bottom: 25px;
     }
 
     #perfil,
@@ -219,7 +212,6 @@ footer {
     }
 
     button {
-        background: black;
         border-width: 2px;
         width: 200px;
         height: 35px;
@@ -234,7 +226,6 @@ footer {
     }
 
     button {
-        background: white;
         width: 70%;
         height: 50px;
         margin-bottom: 1rem;

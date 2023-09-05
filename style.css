@@ -104,6 +104,7 @@ button:hover {
     #principal {
         display: block;
         font-size: 12px;
+        padding-bottom: 25px;
     }
 
     #perfil,
@@ -117,6 +118,5 @@ button:hover {
     button {
         width: 200px;
         height: 35px;
-        padding-bottom: 25px;
     }
 }

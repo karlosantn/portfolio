@@ -33,6 +33,10 @@
 
 }
 
+#tlt {
+    padding-bottom: 25px;
+}
+
 #perfil {
     text-align: center;
     padding-top: 5em;
@@ -215,6 +219,8 @@ footer {
     }
 
     button {
+        background: black;
+        border-width: 2px;
         width: 200px;
         height: 35px;
     }
@@ -228,6 +234,7 @@ footer {
     }
 
     button {
+        b
         width: 70%;
         height: 50px;
         margin-bottom: 1rem;

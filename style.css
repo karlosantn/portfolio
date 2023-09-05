@@ -3,39 +3,30 @@
     background-color: #333;
 }
 
-/* Estilizando a barra de navegação */
 .social-nav {
     margin-top: 15px;
     display: flex;
     justify-content: center;
     background-color: #333;
-    /* Cor de fundo da barra */
     padding: 10px;
 }
 
-/* Estilizando os links e os ícones */
 .social-link {
     margin: 0 10px;
     text-decoration: none;
     color: white;
-    /* Cor do texto dos links */
     transition: color 0.3s ease-in-out;
 }
 
 .social-link img {
     width: 30px;
-    /* Largura dos ícones */
     height: 30px;
-    /* Altura dos ícones */
 }
 
-/* Efeito de hover para os links */
 .social-link:hover {
     color: #55acee;
-    /* Cor do texto dos links quando hover */
 }
 
-/* Estilizando a página */
 #principal{
     display: grid;
     grid-auto-flow: column;
@@ -94,32 +85,25 @@ button:hover {
     transition-duration: 0.5s;
 }
 
-/* Estilos para dispositivos móveis (largura máxima de 768px) */
 @media screen and (max-width: 768px) {
 
-    /* Zerar margem e background para todos os elementos */
     * {
         margin: 0;
         background-color: #333;
-        /* Remova o fundo escuro */
     }
 
-    /* Redefinir estilos da barra de navegação */
     .social-nav {
         margin-top: 0;
         padding: 5px;
-        /* Espaçamento menor na barra de navegação */
     }
 
     .social-link {
         margin: 0 5px;
-        /* Espaçamento menor entre os links */
     }
 
-    /* Redefinir estilos da página principal */
     #principal {
         display: block;
-        /* Mostrar elementos um abaixo do outro */
+        font-size: 12px;
     }
 
     #perfil,
@@ -127,13 +111,11 @@ button:hover {
     #calact {
         text-align: center;
         padding-top: 2em;
-        /* Espaçamento menor na parte superior */
+
     }
 
     button {
         width: 200px;
-        /* Reduzir a largura do botão */
         height: 35px;
-        /* Reduzir a altura do botão */
     }
 }

@@ -58,6 +58,7 @@ a {
     text-align: center;
     padding-top: 15em;
     background: #27272c;
+    padding-bottom: 15px;
 }
 
 #projetos {
@@ -148,6 +149,12 @@ button:hover i::after {
     animation: move 3s infinite;
 }
 
+footer {
+    color: white;
+    text-align: center;
+    background: #27272c;
+}
+
 @keyframes move {
     0% {
         transform: translateX(0);
@@ -176,102 +183,62 @@ button:hover i::after {
     }
 }
 
-/* Estilos para dispositivos com largura máxima de 768px (celulares) */
 @media screen and (max-width: 768px) {
+
     * {
         margin: 0;
-        padding: 0;
-        box-sizing: border-box;
+        background: #27272c;
     }
 
     .social-nav {
-        padding: 10px 0;
-        display: flex;
-        justify-content: center;
-        background: #27272c;
+        margin-top: 0;
+        padding: 5px;
+        padding-top: 15px;
     }
 
     .social-link {
         margin: 0 5px;
-        text-decoration: none;
-        color: white;
-        transition: color 0.3s ease-in-out;
-    }
-
-    .social-link img {
-        width: 20px;
-        /* Reduz o tamanho da imagem */
-        height: 20px;
-        /* Reduz o tamanho da imagem */
-    }
-
-    .social-link:hover {
-        color: #55acee;
     }
 
     #principal {
         display: block;
-        /* Volta ao fluxo padrão */
-        text-align: center;
-        color: white;
-        padding: 1em;
-    }
-
-    #perfil {
-        text-align: center;
-        padding-top: 2em;
-        background: #27272c;
-    }
-
-    h1 {
-        font-family: 'Marcellus SC', serif;
-    }
-
-    p {
         font-size: 12px;
-        font-family: 'Montserrat', sans-serif;
+        padding-bottom: 25px;
     }
 
-    a {
-        font-family: 'Montserrat', sans-serif;
-        text-decoration: none;
-        font-weight: 600;
-        color: white;
-    }
-
+    #perfil,
+    #projetos,
     #calact {
         text-align: center;
         padding-top: 2em;
-        background: #27272c;
+
+    }
+
+    button {
+        width: 200px;
+        height: 35px;
     }
 
     #projetos {
         display: block;
-        /* Volta ao fluxo padrão */
         text-align: center;
-        gap: 1rem;
-        align-items: center;
-        justify-content: center;
-        min-height: auto;
+        padding: 1rem;
         background: #27272c;
+        min-height: 0vh;
     }
 
     button {
         width: 70%;
-        /* Ocupa a largura total do dispositivo */
         height: 50px;
         margin-bottom: 1rem;
-        /* Adiciona espaço entre os botões */
     }
 
     button:hover {
         width: 70%;
-        /* Ocupa a largura total do dispositivo */
         height: 52px;
         box-shadow: 0 0 35px var(--clr);
     }
 
-    /* Remova ou ajuste as animações, se necessário */
     button i::before,
     button i::after {
         animation: none;

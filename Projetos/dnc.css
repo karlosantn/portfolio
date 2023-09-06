@@ -19,6 +19,14 @@ body {
     background: #27272c;
 }
 
+#ref {
+    display: flex;
+}
+
+.ref{
+    margin-right: 15px;
+}
+
 button {
     position: relative;
     background: #444;

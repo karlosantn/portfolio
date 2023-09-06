@@ -1,11 +1,12 @@
 * {
-    background-color: #333;
-}
-
-* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+#titulo {
+    font-family: 'Marcellus SC', serif;
+    color: white;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
     gap: 1rem;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 90vh;
     background: #27272c;
 }
 
@@ -27,16 +28,18 @@ button {
     border: none;
     letter-spacing: 0.1rem;
     font-size: 1rem;
-    padding: 1rem 3rem;
+    width: 200px;
+    height: 50px;
     transition: 0.2s;
 }
 
 button:hover {
     letter-spacing: 0.2rem;
-    padding: 1.1rem 3.1rem;
+    width: 220px;
+    height: 52px;
     background: var(--clr);
     color: var(--clr);
-    /* box-shadow: 0 0 35px var(--clr); */
+    box-shadow: 0 0 35px var(--clr);
     animation: box 3s infinite;
 }
 

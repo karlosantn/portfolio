@@ -37,6 +37,13 @@ body {
     width: 400px;
 }
 
+footer {
+    color: white;
+    text-align: center;
+    background: #27272c;
+    font-family: 'Montserrat', sans-serif;
+}
+
 button {
     position: relative;
     background: #444;
@@ -166,11 +173,11 @@ button:hover i::after {
 
     #mae {
         display: flex;
-        flex-direction: column
+        flex-direction: column;
+        align-items: center;
     }
 
     .ref {
-        width: 95%;
-        text-align: center;
+        width: 90%;
         }
 }

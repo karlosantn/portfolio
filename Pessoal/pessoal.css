@@ -169,7 +169,7 @@ button:hover i::after {
         flex-direction: column
     }
 
-    .texto {
-        font-size: 12px;
-    }
+    .ref {
+        width: 95%;
+        }
 }

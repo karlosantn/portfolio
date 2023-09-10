@@ -21,7 +21,6 @@ body {
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
-    min-height: 60vh;
     background: #27272c;
 }
 
@@ -35,13 +34,6 @@ body {
     display: grid;
     text-align: center;
     width: 400px;
-}
-
-footer {
-    color: white;
-    text-align: center;
-    background: #27272c;
-    font-family: 'Montserrat', sans-serif;
 }
 
 button {

@@ -163,4 +163,9 @@ button:hover i::after {
         margin-right: 0px;
         margin-bottom: 15px;
     }
+
+    #mae {
+        display: flex;
+        flex-direction: column
+    }
 }
